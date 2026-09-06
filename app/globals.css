@@ -1,6 +1,8 @@
 @import 'tailwindcss';
 
 @theme {
+  --font-nunito: var(--font-nunito-sans), sans-serif;
+
   --color-primary-50: #ffffff;
   --color-primary-100: #e9e2e7;
   --color-primary-200: #ddd0da;
@@ -19,6 +21,14 @@
 @layer base {
   html,
   body {
-    @apply bg-primary-50 text-primary-950;
+    @apply bg-primary-50 text-primary-950 font-nunito;
   }
+
+  button {
+    @apply cursor-pointer;
+  }
+}
+
+@utility btn-primary {
+  @apply bg-primary-500 text-primary-50 flex items-center gap-2 rounded-sm px-2.5 py-1.5 text-center text-base font-semibold md:px-3 md:py-2 md:text-lg;
 }
