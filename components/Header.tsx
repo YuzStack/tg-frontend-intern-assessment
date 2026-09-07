@@ -1,4 +1,4 @@
-import brandLogo from '@/public/seecondary-logo-.png';
+import brandLogo from '@/public/brand-logo.png';
 import Image from 'next/image';
 import { LuUser } from 'react-icons/lu';
 import ArrowDown from './icons/ArrowDown';

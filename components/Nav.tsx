@@ -54,12 +54,15 @@ export default function Nav() {
           item.hasDropDown ? (
             <button
               className={`flex items-center gap-2 p-1 text-base font-normal md:text-lg ${item.href === activeNav ? 'text-primary-500 border-primary-500 border-b font-semibold' : ''}`}
+              key={item.href}
             >
               <span>{item.text}</span>
               <ArrowDown className='text-primary-500 h-1.5 w-2.5' />
             </button>
           ) : (
-            <button className='text-center'>{item.text}</button>
+            <button className='text-center' key={item.href}>
+              {item.text}
+            </button>
           ),
         )}
       </div>
