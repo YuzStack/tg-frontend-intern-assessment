@@ -28,14 +28,14 @@ export default function TransformationHub() {
         </p>
 
         <div className='grid items-center justify-center gap-4 md:gap-6 lg:grid-cols-2 lg:gap-8'>
-          <div className='relative aspect-auto size-full min-h-40.5 min-w-70'>
-            <Image
-              src={img}
-              fill
-              className='rounded-lg object-cover object-center'
-              alt='A woman looking at a relection of herself amused'
-            />
-          </div>
+          <Image
+            src={img}
+            placeholder='blur'
+            quality={80}
+            className='h-auto min-w-70 rounded-lg'
+            alt='A woman looking at a relection of herself amused'
+          />
+
           <div className='bg-secondary-400 space-y-4 rounded-lg px-3 py-6 md:space-y-5 lg:space-y-6 lg:px-5 lg:py-8'>
             <ul className='grid grid-cols-2 gap-2 gap-x-3 md:gap-3 md:gap-x-4 lg:gap-4 lg:gap-x-5'>
               <li className='bg-primary-50 flex items-center gap-2 rounded-lg p-2 text-base md:p-3 lg:p-4 lg:text-lg'>

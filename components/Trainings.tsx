@@ -8,14 +8,13 @@ export default function Trainings() {
   return (
     <section className='space-y-12 p-8 md:space-y-16 md:p-12 lg:space-y-20 lg:p-16'>
       <div className='grid items-center justify-center gap-8 md:gap-12 lg:grid-cols-2 lg:gap-16'>
-        <div className='relative aspect-auto size-full min-h-100 min-w-70 lg:order-2'>
-          <Image
-            src={img1}
-            fill
-            className='rounded-lg rounded-tl-4xl object-cover object-center'
-            alt='An individual training a group of people in a coorporate setting'
-          />
-        </div>
+        <Image
+          src={img1}
+          placeholder='blur'
+          quality={80}
+          className='h-auto min-w-70 rounded-lg rounded-tl-4xl lg:order-2'
+          alt='An individual training a group of people in a coorporate setting'
+        />
         <div className='space-y-4 lg:space-y-5'>
           <h3 className='text-xl font-semibold md:text-2xl lg:text-3xl'>
             Corporate Trainings
@@ -53,14 +52,13 @@ export default function Trainings() {
       </div>
 
       <div className='grid items-center justify-center gap-8 md:gap-12 lg:grid-cols-2 lg:gap-16'>
-        <div className='relative aspect-auto size-full min-h-100 min-w-70'>
-          <Image
-            src={img2}
-            fill
-            className='rounded-lg rounded-tl-4xl object-cover object-center'
-            alt='An individual attending a training'
-          />
-        </div>
+        <Image
+          src={img2}
+          placeholder='blur'
+          quality={80}
+          className='h-auto min-w-70 rounded-lg rounded-tl-4xl'
+          alt='An individual attending a training'
+        />
         <div className='space-y-4 lg:space-y-5'>
           <h3 className='text-xl font-semibold md:text-2xl lg:text-3xl'>
             Personalised Individual Training
@@ -102,15 +100,13 @@ export default function Trainings() {
       </div>
 
       <div className='grid items-center justify-center gap-8 md:gap-12 lg:grid-cols-2 lg:gap-16'>
-        <div className='relative aspect-auto size-full min-h-100 min-w-70 lg:order-2'>
-          <Image
-            src={img3}
-            fill
-            className='rounded-lg rounded-tl-4xl object-cover object-center'
-            alt='An individual taking a group of coorporate people how to grow'
-          />
-        </div>
-
+        <Image
+          src={img3}
+          placeholder='blur'
+          quality={80}
+          className='h-auto min-w-70 rounded-lg rounded-tl-4xl lg:order-2'
+          alt='An individual taking a group of coorporate people how to grow'
+        />
         <div className='space-y-4 lg:space-y-5'>
           <h3 className='text-xl font-semibold md:text-2xl lg:text-3xl'>
             Capacity Development

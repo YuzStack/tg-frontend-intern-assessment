@@ -5,14 +5,13 @@ import { MdArrowOutward } from 'react-icons/md';
 export default function Lms() {
   return (
     <section className='bg-primary-100 text-primary-950 my-5 grid items-center justify-center gap-8 px-10 py-6 lg:my-10 lg:grid-cols-2 lg:gap-15 lg:px-16 lg:py-12'>
-      <div className='relative aspect-square size-full max-h-150 min-h-80 max-w-150 min-w-80 justify-self-center overflow-clip rounded-full'>
-        <Image
-          src={lms}
-          fill
-          className='object-cover object-center'
-          alt='Two Coorporate people smilling'
-        />
-      </div>
+      <Image
+        src={lms}
+        placeholder='blur'
+        quality={80}
+        className='aspect-square max-w-150 min-w-80 rounded-full'
+        alt='Two Coorporate people smilling'
+      />
 
       <div className='space-y-4 lg:space-y-5'>
         <h3 className='text-primary-500 text-2xl font-semibold sm:text-3xl lg:text-4xl'>

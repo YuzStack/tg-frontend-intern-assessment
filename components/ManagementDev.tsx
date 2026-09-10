@@ -6,14 +6,13 @@ export default function ManagementDev() {
   return (
     <section className='text-primary-50 flex items-center justify-center p-8 md:p-12 lg:p-16'>
       <div className='bg-primary-800 grid items-center justify-center gap-8 rounded-2xl p-6 md:p-8 lg:grid-cols-2 lg:gap-12 lg:rounded-[20px] lg:p-10'>
-        <div className='relative aspect-auto size-full min-h-100 min-w-90'>
-          <Image
-            src={img}
-            fill
-            className='rounded-lg object-cover object-center'
-            alt='A group of 3 people smiling looking at a tablet screen'
-          />
-        </div>
+        <Image
+          src={img}
+          placeholder='blur'
+          quality={80}
+          className='h-auto min-w-90 rounded-lg'
+          alt='A group of 3 people smiling looking at a tablet screen'
+        />
 
         <div className='space-y-4 md:space-y-6 lg:space-y-8'>
           <div>

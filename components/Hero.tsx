@@ -1,7 +1,24 @@
+import Image from 'next/image';
+import img from '@/public/bg-hero.jpg';
+
 export default function Hero() {
   return (
-    <section className="text-primary-50 relative flex h-[70dvh] min-h-130 w-full items-center justify-center bg-[url('/bg-hero.jpg')] bg-cover bg-center bg-no-repeat p-4 text-center">
+    <section className='text-primary-50 relative flex h-[70dvh] min-h-130 w-full items-center justify-center p-3 text-center md:p-4'>
+      {/* Background Image */}
+      <Image
+        src={img}
+        fill
+        sizes='100vw'
+        priority
+        placeholder='blur'
+        className='object-cover object-center'
+        alt='A woman looking at statistics on a screen'
+      />
+
+      {/* Overlay */}
       <div className='absolute inset-0 bg-black/70' />
+
+      {/* Content */}
       <div className='z-10 flex flex-col items-center gap-6'>
         <div className='bg-primary-50/10 w-fit rounded-full px-8 py-2 text-sm uppercase'>
           What We Do

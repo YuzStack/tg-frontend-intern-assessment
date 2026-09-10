@@ -8,7 +8,13 @@ export default function Header() {
   return (
     <header>
       <div className='border-primary-200 flex items-center justify-between border-b px-4 py-3 md:px-6 md:py-5'>
-        <Image src={brandLogo} alt='Tobbams Group' width={166} height={64} />
+        <Image
+          src={brandLogo}
+          alt='Tobbams Group'
+          width={166}
+          height={64}
+          className='h-auto w-28 md:w-36 lg:w-41.5'
+        />
 
         <div className='flex gap-4 md:gap-6'>
           <button className='btn-primary'>
