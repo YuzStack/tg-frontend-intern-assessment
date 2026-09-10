@@ -1,5 +1,5 @@
 import Image from 'next/image';
-import img from '@/public/mangement-training.jpg';
+import img from '@/public/mangement-dev.jpg';
 import { HiLightningBolt } from 'react-icons/hi';
 
 export default function ManagementDev() {
@@ -10,13 +10,13 @@ export default function ManagementDev() {
           src={img}
           placeholder='blur'
           quality={80}
-          className='h-auto min-w-90 rounded-lg'
+          className='h-auto min-w-50 rounded-lg'
           alt='A group of 3 people smiling looking at a tablet screen'
         />
 
         <div className='space-y-4 md:space-y-6 lg:space-y-8'>
           <div>
-            <h3 className='mb-3 text-2xl font-semibold md:mb-4 md:text-3xl lg:mb-5 lg:text-4xl'>
+            <h3 className='mb-3 text-xl font-semibold md:mb-4 md:text-2xl lg:mb-5 lg:text-3xl'>
               Management Development Program
             </h3>
             <div className='space-y-2 text-base md:space-y-3 lg:space-y-4 lg:text-lg'>

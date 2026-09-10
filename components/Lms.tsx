@@ -5,16 +5,20 @@ import { MdArrowOutward } from 'react-icons/md';
 export default function Lms() {
   return (
     <section className='bg-primary-100 text-primary-950 my-5 grid items-center justify-center gap-8 px-10 py-6 lg:my-10 lg:grid-cols-2 lg:gap-15 lg:px-16 lg:py-12'>
+      <h3 className='text-primary-500 text-xl font-semibold md:text-2xl lg:text-3xl'>
+        Learning Management System
+      </h3>
+
       <Image
         src={lms}
         placeholder='blur'
         quality={80}
-        className='aspect-square max-w-150 min-w-80 rounded-full'
+        className='aspect-square min-w-50 rounded-full'
         alt='Two Coorporate people smilling'
       />
 
       <div className='space-y-4 lg:space-y-5'>
-        <h3 className='text-primary-500 text-2xl font-semibold sm:text-3xl lg:text-4xl'>
+        <h3 className='text-primary-500 hidden text-xl font-semibold md:text-2xl lg:block lg:text-3xl'>
           Learning Management System
         </h3>
         <div className='bg-primary-300 space-y-3 rounded-lg p-4 lg:p-6'>
@@ -58,8 +62,12 @@ export default function Lms() {
               <span>Business Model</span>
             </li>
           </ul>
+          <button className='btn-primary mt-5 lg:hidden'>
+            <span>Learn More</span>
+            <MdArrowOutward />
+          </button>
         </div>
-        <button className='btn-primary'>
+        <button className='btn-primary hidden lg:block'>
           <span>Learn More</span>
           <MdArrowOutward />
         </button>

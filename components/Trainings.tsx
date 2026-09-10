@@ -7,7 +7,10 @@ import { HiLightningBolt } from 'react-icons/hi';
 export default function Trainings() {
   return (
     <section className='space-y-12 p-8 md:space-y-16 md:p-12 lg:space-y-20 lg:p-16'>
-      <div className='grid items-center justify-center gap-8 md:gap-12 lg:grid-cols-2 lg:gap-16'>
+      <div className='grid items-center justify-center gap-6 md:gap-12 lg:grid-cols-2 lg:gap-16'>
+        <h3 className='text-xl font-semibold md:text-2xl lg:hidden lg:text-3xl'>
+          Corporate Trainings
+        </h3>
         <Image
           src={img1}
           placeholder='blur'
@@ -16,7 +19,7 @@ export default function Trainings() {
           alt='An individual training a group of people in a coorporate setting'
         />
         <div className='space-y-4 lg:space-y-5'>
-          <h3 className='text-xl font-semibold md:text-2xl lg:text-3xl'>
+          <h3 className='hidden text-xl font-semibold md:text-2xl lg:block lg:text-3xl'>
             Corporate Trainings
           </h3>
           <p className='text-base text-stone-500 lg:text-lg'>
@@ -51,7 +54,10 @@ export default function Trainings() {
         </div>
       </div>
 
-      <div className='grid items-center justify-center gap-8 md:gap-12 lg:grid-cols-2 lg:gap-16'>
+      <div className='grid items-center justify-center gap-6 md:gap-12 lg:grid-cols-2 lg:gap-16'>
+        <h3 className='text-xl font-semibold md:text-2xl lg:hidden lg:text-3xl'>
+          Personalised Individual Training
+        </h3>
         <Image
           src={img2}
           placeholder='blur'
@@ -60,7 +66,7 @@ export default function Trainings() {
           alt='An individual attending a training'
         />
         <div className='space-y-4 lg:space-y-5'>
-          <h3 className='text-xl font-semibold md:text-2xl lg:text-3xl'>
+          <h3 className='hidden text-xl font-semibold md:text-2xl lg:block lg:text-3xl'>
             Personalised Individual Training
           </h3>
           <p className='text-base text-stone-500 lg:text-lg'>
@@ -99,7 +105,10 @@ export default function Trainings() {
         </div>
       </div>
 
-      <div className='grid items-center justify-center gap-8 md:gap-12 lg:grid-cols-2 lg:gap-16'>
+      <div className='grid items-center justify-center gap-6 md:gap-12 lg:grid-cols-2 lg:gap-16'>
+        <h3 className='text-xl font-semibold md:text-2xl lg:hidden lg:text-3xl'>
+          Capacity Development
+        </h3>
         <Image
           src={img3}
           placeholder='blur'
@@ -108,7 +117,7 @@ export default function Trainings() {
           alt='An individual taking a group of coorporate people how to grow'
         />
         <div className='space-y-4 lg:space-y-5'>
-          <h3 className='text-xl font-semibold md:text-2xl lg:text-3xl'>
+          <h3 className='hidden text-xl font-semibold md:text-2xl lg:block lg:text-3xl'>
             Capacity Development
           </h3>
           <p className='text-base text-stone-500 lg:text-lg'>

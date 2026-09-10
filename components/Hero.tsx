@@ -23,10 +23,10 @@ export default function Hero() {
         <div className='bg-primary-50/10 w-fit rounded-full px-8 py-2 text-sm uppercase'>
           What We Do
         </div>
-        <h2 className='text-4xl font-bold md:text-6xl'>
+        <h2 className='text-2xl font-bold md:text-4xl lg:text-6xl'>
           Training and Development
         </h2>
-        <p className='max-w-[70vw] text-base font-semibold md:text-lg'>
+        <p className='text-sm font-semibold md:max-w-[80vw] md:text-base lg:max-w-[70vw] lg:text-lg'>
           Our comprehensive range of programs and resources is designed to
           enhance skills, broaden knowledge, and propel careers forward in
           today's ever-evolving landscape.
