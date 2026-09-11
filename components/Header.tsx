@@ -8,20 +8,20 @@ import Link from 'next/link';
 import Hamburger from './icons/Hamburger';
 
 export interface NavItem {
-  text: string;
+  name: string;
   href: string;
   hasDropDown?: boolean;
 }
 
 const navMenu: NavItem[] = [
-  { text: 'About', href: '#about', hasDropDown: true },
-  { text: 'What We Do', href: '#what-we-do', hasDropDown: true },
-  { text: 'Jobs', href: '#jobs', hasDropDown: true },
-  { text: 'Projects', href: '#projects' },
-  { text: 'TG Academy', href: '#tg-academy' },
-  { text: 'Strategic Partnership', href: '#strategic-partnership' },
-  { text: 'Pricing', href: '#pricing' },
-  { text: 'Book a Consultation', href: '#book-a-consultation' },
+  { name: 'About', href: '#about', hasDropDown: true },
+  { name: 'What We Do', href: '#what-we-do', hasDropDown: true },
+  { name: 'Jobs', href: '#jobs', hasDropDown: true },
+  { name: 'Projects', href: '#projects' },
+  { name: 'TG Academy', href: '#tg-academy' },
+  { name: 'Strategic Partnership', href: '#strategic-partnership' },
+  { name: 'Pricing', href: '#pricing' },
+  { name: 'Book a Consultation', href: '#book-a-consultation' },
 ];
 
 export default function Header() {

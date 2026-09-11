@@ -4,7 +4,7 @@ import { HiLightningBolt } from 'react-icons/hi';
 
 export default function ManagementDev() {
   return (
-    <section className='text-primary-50 flex items-center justify-center p-8 md:p-12 lg:p-16'>
+    <section className='text-primary-50 bg-secondary-200 flex items-center justify-center p-6 sm:p-8 md:p-12 lg:p-16'>
       <div className='bg-primary-800 grid items-center justify-center gap-8 rounded-2xl p-6 md:p-8 lg:grid-cols-2 lg:gap-12 lg:rounded-[20px] lg:p-10'>
         <Image
           src={img}
@@ -18,6 +18,9 @@ export default function ManagementDev() {
           <div>
             <h3 className='mb-3 text-xl font-semibold md:mb-4 md:text-2xl lg:mb-5 lg:text-3xl'>
               Management Development Program
+            </h3>
+            <h3 className='mb-3 text-xl font-semibold md:mb-4 md:text-2xl lg:mb-5 lg:text-3xl'>
+              Maximise Your Potential as a Certified Trainer:
             </h3>
             <div className='space-y-2 text-base md:space-y-3 lg:space-y-4 lg:text-lg'>
               <p>

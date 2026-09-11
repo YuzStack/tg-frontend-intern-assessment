@@ -1,6 +1,9 @@
+import CTABanner from '@/components/CTABanner';
 import Hero from '@/components/Hero';
 import Lms from '@/components/Lms';
 import ManagementDev from '@/components/ManagementDev';
+import Testimonials from '@/components/Testimonials';
+import TrainingConsultant from '@/components/TrainingConsultant';
 import Trainings from '@/components/Trainings';
 import TransformationHub from '@/components/TransformationHub';
 
@@ -12,6 +15,9 @@ export default function HomePage() {
       <Trainings />
       <ManagementDev />
       <TransformationHub />
+      <TrainingConsultant />
+      <CTABanner />
+      <Testimonials />
     </>
   );
 }

@@ -12,13 +12,13 @@ export default function MobileNav({ navMenu }: { navMenu: NavItem[] }) {
     >
       <div className='overflow-hidden'>
         <ul className='divide-primary-300 flex flex-col divide-y px-6 py-2'>
-          {navMenu.map(item => (
+          {navMenu.map((item) => (
             <li key={item.href}>
               <Link
                 href={item.href}
                 className={`hover:text-primary-600 active:text-primary-700 flex items-center justify-between py-3 text-base font-medium text-neutral-800 transition-colors ${item.href === activeNav && 'text-primary-500 font-semibold'}`}
               >
-                <span>{item.text}</span>
+                <span>{item.name}</span>
                 {item.hasDropDown && (
                   <ArrowDown className='text-primary-500 h-1.5 w-2.5' />
                 )}

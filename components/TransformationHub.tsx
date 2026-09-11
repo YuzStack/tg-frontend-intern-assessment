@@ -5,7 +5,7 @@ import { RiFlashlightLine } from 'react-icons/ri';
 
 export default function TransformationHub() {
   return (
-    <section className='text-primary-950 flex items-center justify-center p-8 md:p-12 lg:p-16'>
+    <section className='text-primary-950 flex items-center justify-center p-6 sm:p-8 md:p-12 lg:p-16'>
       <div className='bg-secondary-400 space-y-4 rounded-xl p-6 md:space-y-5 md:p-8 lg:space-y-6 lg:rounded-2xl lg:p-10'>
         <div>
           <p className='text-accent-2 text-lg font-semibold italic lg:text-xl'>
