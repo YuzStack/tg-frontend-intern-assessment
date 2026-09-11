@@ -78,12 +78,9 @@ export default function Testimonials() {
             <li
               key={testimonial.name}
               className='bg-primary-50 border-accent max-w-100 min-w-75 space-y-4 rounded-lg border-l-2 p-5 shadow-sm transition-all duration-1000 md:shrink-0 md:space-y-6 md:rounded-xl md:px-6 md:py-5 lg:rounded-2xl'
-              // style={{ transform: `translateX(${100 * (i - curTest)}%)` }}
-
-              // style={{
-              //   transform:
-              //     curTest === 0 ? '' : `translateX(${100 * (i - curTest)}%)`,
-              // }}
+              style={{
+                transform: `translateX(calc(${-100 * curTest}% - ${curTest * 24}px))`,
+              }}
             >
               <div className='flex items-center gap-4 md:gap-5'>
                 <div className='flex size-11 shrink-0 items-center justify-center overflow-hidden rounded-full'>
