@@ -106,13 +106,15 @@ export default function Testimonials() {
             </li>
           ))}
         </ul>
-        <div className='float-right flex gap-3'>
-          <ArrowBtn onClick={goToPrevTest}>
-            <MdOutlineKeyboardArrowLeft className='text-accent text-3xl md:text-4xl' />
-          </ArrowBtn>
-          <ArrowBtn onClick={goToNextTest}>
-            <MdOutlineKeyboardArrowRight className='text-accent text-3xl md:text-4xl' />
-          </ArrowBtn>
+        <div className='flex items-center justify-end'>
+          <div className='flex gap-3'>
+            <ArrowBtn onClick={goToPrevTest}>
+              <MdOutlineKeyboardArrowLeft className='text-accent text-3xl md:text-4xl' />
+            </ArrowBtn>
+            <ArrowBtn onClick={goToNextTest}>
+              <MdOutlineKeyboardArrowRight className='text-accent text-3xl md:text-4xl' />
+            </ArrowBtn>
+          </div>
         </div>
       </div>
     </section>
